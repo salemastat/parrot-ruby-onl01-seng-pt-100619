@@ -1,8 +1,7 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-def bird
-type_of_bird = "parrot"
-return "Squawk"
-end 
+def parrot(name = "Squawk!") 
+puts "parrots make a #{name} noise."
+ end 
 
-bird 
+parrot
